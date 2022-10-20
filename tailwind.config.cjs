@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         text: ['Roboto, sans-serif'],
-        header: ['Baloo 2, cursive']
+        header: ['"Baloo 2", cursive']
       }
     },
     colors: {

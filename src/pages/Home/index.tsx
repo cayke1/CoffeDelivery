@@ -2,6 +2,7 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react"
 import coffeHome from "../../assets/coffeHome.svg"
 import { IconDescription } from "./components/IconDescript"
 import { ProductCard } from "./components/ProductCard"
+import productsObj from "../../../coffe.json"
 export function Home() {
     return (
         <>
@@ -41,8 +42,15 @@ export function Home() {
 
         <section className="mt-40 w-[1120px] mx-auto mb-40">
             <h2 className="text-base-subtitle text-[2rem] font-header font-bold">Nossos cafés</h2>
-            <div className="max-w-[1120px] mt-14">
-                <ProductCard />
+            <div className="max-w-[1120px] mt-[3.357rem] flex gap-8 flex-wrap">
+                {productsObj.map(product => {
+                    return <ProductCard 
+                        imgSrc={product.img} 
+                        tags={product.tags}
+                        title={product.title}
+                        description={product.description}
+                    />
+                })}
             </div>
         </section>
         </>
