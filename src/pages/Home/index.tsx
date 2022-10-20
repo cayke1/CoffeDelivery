@@ -1,8 +1,10 @@
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react"
 import coffeHome from "../../assets/coffeHome.svg"
 import { IconDescription } from "./components/IconDescript"
+import { ProductCard } from "./components/ProductCard"
 export function Home() {
     return (
+        <>
         <main className="flex justify-center items-center gap-14 mt-24 backdrop-blur-3xl w-[1120px] mx-auto">
             <div>
                 <h1 className="text-base-title text-5xl font-header font-bold">Encontre o café perfeito para qualquer hora do dia</h1>
@@ -36,5 +38,13 @@ export function Home() {
             </div>
             <img src={coffeHome} alt="" />
         </main>
+
+        <section className="mt-40 w-[1120px] mx-auto mb-40">
+            <h2 className="text-base-subtitle text-[2rem] font-header font-bold">Nossos cafés</h2>
+            <div className="max-w-[1120px] mt-14">
+                <ProductCard />
+            </div>
+        </section>
+        </>
     )
 }

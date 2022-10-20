@@ -4,7 +4,12 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        text: ['Roboto, sans-serif'],
+        header: ['Baloo 2, cursive']
+      }
+    },
     colors: {
       'yellow-dark': '#c47f17',
       yellow: '#dbac2c',
@@ -24,11 +29,8 @@ module.exports = {
       },
       background: '#Fafafa',
       white: '#ffffff',
-      black: '#000000'
-    },
-    fontFamily: {
-      text: 'Roboto, sans-serif',
-      header: 'Baloo 2, cursive'
+      black: '#000000',
+      transparent: 'transparent'
     }
   },
   plugins: []
