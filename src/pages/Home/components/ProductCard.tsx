@@ -3,12 +3,14 @@ import { ShoppingCart } from "phosphor-react";
 import { InputNumber } from "./InputNumber";
 
 interface ProductCardProps {
+    id: number,
     imgSrc: string,
     tags: String[],
     title: string,
-    description: string
+    description: string,
+    quantityInCart: number
 }
-export function ProductCard({imgSrc, tags, title, description}: ProductCardProps) {
+export function ProductCard({id, imgSrc, tags, title, description, quantityInCart}: ProductCardProps) {
     
     return (
         <div 

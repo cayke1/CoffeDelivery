@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         text: ['Roboto, sans-serif'],
         header: ['"Baloo 2", cursive']
+      },
+      gridTemplateColumns: {
+        cartForm: '12.5rem, 17.25rem, 3.75rem'
       }
     },
     colors: {

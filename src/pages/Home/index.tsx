@@ -2,8 +2,11 @@ import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react"
 import coffeHome from "../../assets/coffeHome.svg"
 import { IconDescription } from "./components/IconDescript"
 import { ProductCard } from "./components/ProductCard"
-import productsObj from "../../../coffe.json"
+import { CartContext } from '../../contexts/CartContext';
+import { useContext } from "react";
+
 export function Home() {
+    const { products } = useContext(CartContext)
     return (
         <>
         <main className="flex justify-center items-center gap-14 mt-24 backdrop-blur-3xl w-[1120px] mx-auto">
@@ -43,12 +46,14 @@ export function Home() {
         <section className="mt-40 w-[1120px] mx-auto mb-40">
             <h2 className="text-base-subtitle text-[2rem] font-header font-bold">Nossos cafés</h2>
             <div className="max-w-[1120px] mt-[3.357rem] flex gap-8 flex-wrap">
-                {productsObj.map(product => {
-                    return <ProductCard 
+                {products.map(product => {
+                    return <ProductCard
+                        id={product.id}
                         imgSrc={product.img} 
                         tags={product.tags}
                         title={product.title}
                         description={product.description}
+                        quantityInCart={product.quantityInCart}
                     />
                 })}
             </div>

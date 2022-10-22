@@ -1,114 +1,142 @@
 [
     {
+        "id": 1,
         "img":"./src/assets/products/product-1.svg",
         "title": "Expresso Tradicional",
         "tags": [
             "Tradicional"
         ],
-        "description": "O tradicional café feito com água quente e grãos moídos"
+        "description": "O tradicional café feito com água quente e grãos moídos",
+        "quantityInCart": 0
     },
     {
+        "id": 2,
         "img":"./src/assets/products/product-2.svg",
         "title": "Expresso Americano",
         "tags": [
             "Tradicional"
         ],
-        "description": "Expresso diluído, menos intenso que o tradicional"
+        "description": "Expresso diluído, menos intenso que o tradicional",
+        "quantityInCart": 0
     },
     {
+        "id": 3,
         "img":"./src/assets/products/product-3.svg",
         "title": "Expresso Cremoso",
         "tags": [
             "Tradicional"
         ],
-        "description": "Café expresso tradicional com espuma cremosa"
+        "description": "Café expresso tradicional com espuma cremosa",
+        "quantityInCart": 0
     },
     {
+        "id": 4,
         "img":"./src/assets/products/product-4.svg",
         "title": "Expresso Gelado",
         "tags": [
             "Tradicional", "Gelado"
         ],
-        "description": "Bebida preparada com café expresso e cubos de gelo"
+        "description": "Bebida preparada com café expresso e cubos de gelo",
+        "quantityInCart": 0
     },
     {
+        "id": 5,
         "img":"./src/assets/products/product-5.svg",
         "title": "Café com Leite",
         "tags": [
             "Tradicional", "Com Leite"
         ],
-        "description": "Meio a meio de expresso tradicional com leite vaporizado"
+        "description": "Meio a meio de expresso tradicional com leite vaporizado",
+        "quantityInCart": 0
     },
     {
+        "id": 6,
         "img":"./src/assets/products/product-6.svg",
         "title": "Latte",
         "tags": [
             "Tradicional", "Com Leite"
         ],
-        "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa"
+        "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
+        "quantityInCart": 0
     },
     {
+        "id": 7,
         "img":"./src/assets/products/product-7.svg",
         "title": "Capuccino",
         "tags": [
             "Tradicional", "Com Leite"
         ],
-        "description": "Bebida com canela feita de doses iguais de café, leite e espuma"
+        "description": "Bebida com canela feita de doses iguais de café, leite e espuma",
+        "quantityInCart": 0
     },
     {
+        "id": 8,
         "img":"./src/assets/products/product-8.svg",
         "title": "Macchiato",
         "tags": [
             "Tradicional", "Com Leite"
         ],
-        "description": "Café expresso misturado com um pouco de leite quente e espuma"
+        "description": "Café expresso misturado com um pouco de leite quente e espuma",
+        "quantityInCart": 0
     },
     {
+        "id": 9,
         "img":"./src/assets/products/product-9.svg",
         "title": "Mocaccino",
         "tags": [
             "Tradicional", "Com Leite"
         ],
-        "description": "Café expresso com calda de chocolate, pouco leite e espuma"
+        "description": "Café expresso com calda de chocolate, pouco leite e espuma",
+        "quantityInCart": 0
     },
     {
+        "id": 10,
         "img":"./src/assets/products/product-10.svg",
         "title": "Chocolate Quente",
         "tags": [
             "Especial", "Com Leite"
         ],
-        "description": "Bebida feita com chocolate dissolvido no leite quente e café"
+        "description": "Bebida feita com chocolate dissolvido no leite quente e café",
+        "quantityInCart": 0
     },
     {
+        "id": 11,
         "img":"./src/assets/products/product-11.svg",
         "title": "Cubano",
         "tags": [
             "Especial", "Alcoólico", "Gelado"
         ],
-        "description": "Drink gelado de café expresso com rum, creme de leite e hortelã"
+        "description": "Drink gelado de café expresso com rum, creme de leite e hortelã",
+        "quantityInCart": 0
     },
     {
+        "id": 12,
         "img":"./src/assets/products/product-12.svg",
         "title": "Havaiano",
         "tags": [
             "Especial"
         ],
-        "description": "Bebida adocicada preparada com café e leite de coco"
+        "description": "Bebida adocicada preparada com café e leite de coco",
+        "quantityInCart": 0
     },
     {
+        "id": 13,
         "img":"./src/assets/products/product-13.svg",
         "title": "Árabe",
         "tags": [
             "Especial"
         ],
-        "description": "Bebida preparada com grãos de café árabe e especiarias"
+        "description": "Bebida preparada com grãos de café árabe e especiarias",
+        "quantityInCart": 0
     },
     {
+        "id": 14,
         "img":"./src/assets/products/product-14.svg",
         "title": "Irlandês",
         "tags": [
             "Especial", "Alcoólico"
         ],
-        "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly"
+        "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly",
+        "quantityInCart": 0
     }
 ]
